@@ -1,0 +1,502 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SCOOP.CadastroBairro" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>KAaVCI2gqDAQBj+AoGCEpB8yQgAbE6ACEWgBAA4BBAA=</HashCode>
+      <FileName>CadastroBairro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroComposicao" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CECcAIKIkHAABB8wI2mEMCQ2SwkIYAAiA6iKIgQpCB0=</HashCode>
+      <FileName>CadastroComposicao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroEmpreteira" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/yKHs/21CCEAQjQQME3AsF9jwul5CqJCMeDV0BUFRPg=</HashCode>
+      <FileName>CadastroEmpreteira.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroFiscal" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LACFEPEAADAAAhiAiESAAABiQig5CqiCEfgBABABBAo=</HashCode>
+      <FileName>CadastroFiscal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroGrupoComposicao" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DACFAPmAATAJQhSAkmTAEAhjQihbCqIiAfADWhJBDhk=</HashCode>
+      <FileName>CadastroGrupoComposicao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroGrupoInsumos" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DAiVFJEAgDAAFhuAKmiEMAAyQggZAqACAGgBAFgBBCE=</HashCode>
+      <FileName>CadastroGrupoInsumos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroGrupoMedicao" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LAKFUPEAQDAAAhjAgGCAAAIiwih7DqECGPABABKRBAg=</HashCode>
+      <FileName>CadastroGrupoMedicao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroInsumos" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DCCVFPGAADAJGBKBsGWECIRiQiwZCqgBA/gBIhAJJR0=</HashCode>
+      <FileName>CadastroInsumos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroMedicao" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SaDVLoHF8XQ5RtOhIEi0Nl4zRszqeqAcAjRZKDcBZQ4=</HashCode>
+      <FileName>CadastroMedicacao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroObraTipo" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCCCEg0AYDABCjiAIEiAkF8CkAgTAgAiACAAFBIRBAg=</HashCode>
+      <FileName>CadastroObraTipo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroOrcamentocontratado" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>8YCQAtiliHQhZl+RIEmFNEgzFJg66ggMEngeJAUdfYw=</HashCode>
+      <FileName>CadastroOrcamentocontratado.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroOrcamentocs" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>96CQApCl5DQ95t+hIFmFNEA3nOh7aoiOEHifbBWdbgw=</HashCode>
+      <FileName>CadastroOrcamentocs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroUnidade" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NACAUICAgDAABjuAKECEcAJSEIGBAgACACgAQBARBJA=</HashCode>
+      <FileName>CadastroUnidade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CadastroUsuario" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAEECAAABABAACAAhECAAAYAAAAAGAAAQAEAAI=</HashCode>
+      <FileName>CadastroUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Composicao" Collapsed="true">
+    <Position X="14.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAABJAAAQAAAAAAAIAAAAAAAAAAAADAABAAAABAA=</HashCode>
+      <FileName>Composicao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CachedComposicao" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composicao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCOOP.Contrato" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAABEAAACAAAACAAAoAAAAQEABBAAAAAA=</HashCode>
+      <FileName>Contrato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.ContratoEmpreteiro" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABCAAABAA=</HashCode>
+      <FileName>ContratoEmpreteiro.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CachedContratoEmpreteiro" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ContratoEmpreteiro.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCOOP.CrystalReport1" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABAAAABAA=</HashCode>
+      <FileName>CrystalReport1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CachedCrystalReport1" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CrystalReport1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCOOP.Form1" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>mRAIBBETSTABRAKRhguAMAiCBIIcBAAM8JQWgwCKtQU=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Fornecedor" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>eCqfVIFAgHAIBh/FIECEMwJyUgiBAqAxMGQRQRANRCQ=</HashCode>
+      <FileName>Fornecedor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.ListaContrato" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QKAUArREwDAJRhOBIFCMMEETABgAACAAEEAAAIAcACQ=</HashCode>
+      <FileName>ListaContrato.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.ListaInsumos" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIQAIiAhDAoDhOBMGCWOEySQAwAMAACAQBQIgAJICU=</HashCode>
+      <FileName>ListaInsumos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.ListaServico" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACiYAICgoDAIFh+TIEGMMWgSAgwMAAAiECBTIlAJSCw=</HashCode>
+      <FileName>ListaServico.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Medicao" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAARJAgAQAAAAAAAIAAAAAAAAAAAADgABAAAABAA=</HashCode>
+      <FileName>Medicao.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CachedMedicao" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Medicao.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCOOP.MedicaoQntValorEmBranco" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAARJAgAQAAAAAAAIAAAAAAAAAAAADgABAAAABAA=</HashCode>
+      <FileName>MedicaoQntValorEmBranco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CachedMedicaoQntValorEmBranco" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicaoQntValorEmBranco.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCOOP.MedicaoValorEmBranco" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAARJAgAQAAAAAAAIAAAAAAAAAAAADgABAAAABAA=</HashCode>
+      <FileName>MedicaoValorEmBranco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CachedMedicaoValorEmBranco" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>MedicaoValorEmBranco.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCOOP.Orcamento" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAABJAgAQAIAAAAAIAAAAAAAAAAAADgABAAAABAA=</HashCode>
+      <FileName>Orcamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CachedOrcamento" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Orcamento.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCOOP.Pergunta" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAgAACAAAACAAAKAAQACCAAAAQAAAAAAAAAEAAA=</HashCode>
+      <FileName>Pergunta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.PesquiarOrcamento" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACCAAoAEoDQYRhOBKECkcEASAAAIIAAAAGBAIEKQQAw=</HashCode>
+      <FileName>PesquiarOrcamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Program" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Recibo" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABCAAABAA=</HashCode>
+      <FileName>Recibo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CachedRecibo" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Recibo.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCOOP.ReciboEmpreteira" Collapsed="true">
+    <Position X="14.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAJAAAQAAAAAAAIAAAAAAAAAAAACAABCAAABAA=</HashCode>
+      <FileName>ReciboEmpreteira.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CachedReciboEmpreteira" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReciboEmpreteira.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCOOP.SCOOPDataSet" Collapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>DDwX3xmfFzIEhZtgR3BMUrhACxoWaZsACJjDcinDBFI=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.SolicitacaoPagamento" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIEAEAAAAAAAAAAAAAAAAAAAgQAAABCAAAAAA=</HashCode>
+      <FileName>SolicitacaoPagamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.CachedSolicitacaoPagamento" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SolicitacaoPagamento.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="SCOOP.Validacoes" Collapsed="true">
+    <Position X="2.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ValidacoesLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Properties.Resources" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAACWEIgIFQgEAEAAABEQAAAYEgGEYDFCQQAAFAQYQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Properties.Settings" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAEAEAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.AtividadeTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEFAAKAcAIAAAAAAAACGICAAAEgAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.BairroTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAgACAcAIAAAAAAAACEICAAAAACAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.ComposicaoTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBSAAGAAEAAACAcAIAAAAAAAACEICAAAAAAAAAAARBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.ContratoTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAACAcAIAAAAAAAACEICAAAAAAAAAAARBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.DotacaoOrcamentariaTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcEIAAAAAAAACEICAEAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.EmpresaTableAdapter" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.EmpreteiraTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEBAACAcAIAAAAAAAACEICAAAAAAAAAAARBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.EtapaTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEBAACAcAIAABAAAAACEICAAAEAAAAAAARBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.FiscalizacaoTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEKgACAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.FornecedorTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAgACAcAIAAAAAAAACEICAAAEAAAAAAARBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.GrupoTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAgACAcAIAAAAAAAACEICAAEAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.GrupoInsumoTableAdapter" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAgACAcAIAAAAAAAACEICAAAGAAAAAAARBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.InsumoTableAdapter" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEKAACAcAIAAACAAAACEMCAAAEAAAAAAARFA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.LicitadoTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Med_ServicoTableAdapter" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.MedicaoTableAdapter" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Orc_Cont_ServicoTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Orc_ServicoTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAWQAGAAMCgACAcAIAAAAAAAACEICAAAEAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.OrcamentoTableAdapter" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEBgACAcAIAAAAAAAACEICAAAAAAABAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.Orcamento_ContratadoTableAdapter" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.OrcaUsuarioTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAECAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.SecretariaTableAdapter" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.ServicoTableAdapter" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEDgACAcAIAACAAAAACEICAAAGAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.TipoInsumoTableAdapter" Collapsed="true">
+    <Position X="12.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.TipoOrcamentoTableAdapter" Collapsed="true">
+    <Position X="14.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGQAECgACAcAIAAAAAAAgCEICAAAEAAAgAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.UnidadeTableAdapter" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAECgACAcAIAAAAAAAACEICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SCOOP.TableAdapterManager" Collapsed="true">
+    <Position X="11" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gYAQMSAgAwFBFEEBCUAAMxKoYCCShG4MYAQIACIKDRQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

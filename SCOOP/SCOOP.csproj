@@ -1,0 +1,1048 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6380FA60-C85F-4069-A5EB-5D17F43287F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SCOOP</RootNamespace>
+    <AssemblyName>SCOOP</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ManifestCertificateThumbprint>3D29E65059205EDB7973A55252DE4B20315D54AC</ManifestCertificateThumbprint>
+    <ManifestKeyFile>SCOOP_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>false</SignManifests>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ApplicationIcon>ico268.ico</ApplicationIcon>
+    <PublishUrl>E:\SCOOP\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>10</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ascend, Version=1.0.0.6, Culture=neutral, PublicKeyToken=25c7a393ba3f37cd, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Ascend.dll</HintPath>
+    </Reference>
+    <Reference Include="Ascend.Resources, Version=1.0.0.6, Culture=neutral, PublicKeyToken=9c9aecb37b1e03b6, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Ascend.Resources.dll</HintPath>
+    </Reference>
+    <Reference Include="Ascend.Windows.Forms, Version=1.0.0.6, Culture=neutral, PublicKeyToken=ecd86ece2d3eb46d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Ascend.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="Jacksonsoft.CustomTabControl, Version=1.0.1.5, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Jacksonsoft.CustomTabControl.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Calendar, Version=1.0.4254.38680, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Windows.Forms.Calendar.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms.Ribbon, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\System.Windows.Forms.Ribbon.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="TaskPaneControl, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\TaskPaneControl.dll</HintPath>
+    </Reference>
+    <Reference Include="XPExplorerBar, Version=3.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\XPExplorerBar.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GUI\CadastroTabelaExterna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroTabelaExterna.Designer.cs">
+      <DependentUpon>CadastroTabelaExterna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Contrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Contrato.Designer.cs">
+      <DependentUpon>Contrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\DotacaoOrcamentaria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\DotacaoOrcamentaria.Designer.cs">
+      <DependentUpon>DotacaoOrcamentaria.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\EstornoOrcamentoContratado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EstornoOrcamentoContratado.Designer.cs">
+      <DependentUpon>EstornoOrcamentoContratado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Login.designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Relatorio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Relatorio.Designer.cs">
+      <DependentUpon>Relatorio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Relatorios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Relatorios.Designer.cs">
+      <DependentUpon>Relatorios.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Relatorios1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Relatorios1.Designer.cs">
+      <DependentUpon>Relatorios1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\BoletimObras.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BoletimObras.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\BoletimObras_old.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BoletimObras_old.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\Composicao1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Composicao.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroAditivo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroAditivo.designer.cs">
+      <DependentUpon>CadastroAditivo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ImporteEmpreteira.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ImporteEmpreteira.Designer.cs">
+      <DependentUpon>ImporteEmpreteira.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RelatoriosServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\RelatoriosServico.designer.cs">
+      <DependentUpon>RelatoriosServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\RelatorioMedicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\RelatorioMedicao.designer.cs">
+      <DependentUpon>RelatorioMedicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ImporteServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ImporteServico.Designer.cs">
+      <DependentUpon>ImporteServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ImporteInsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ImporteInsumo.Designer.cs">
+      <DependentUpon>ImporteInsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroBairro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroBairro.designer.cs">
+      <DependentUpon>CadastroBairro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroComposicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroComposicao.Designer.cs">
+      <DependentUpon>CadastroComposicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroEmpreteira.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroEmpreteira.designer.cs">
+      <DependentUpon>CadastroEmpreteira.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroFiscalizador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroFiscalizador.Designer.cs">
+      <DependentUpon>CadastroFiscalizador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroGrupoComposicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroGrupoComposicao.designer.cs">
+      <DependentUpon>CadastroGrupoComposicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroGrupoInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroGrupoInsumos.designer.cs">
+      <DependentUpon>CadastroGrupoInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroGrupoMedicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroGrupoMedicao.designer.cs">
+      <DependentUpon>CadastroGrupoMedicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroInsumos.designer.cs">
+      <DependentUpon>CadastroInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroMedicacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroMedicacao.designer.cs">
+      <DependentUpon>CadastroMedicacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroObraTipo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroObraTipo.designer.cs">
+      <DependentUpon>CadastroObraTipo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroOrcamentocontratado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroOrcamentocontratado.designer.cs">
+      <DependentUpon>CadastroOrcamentocontratado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroOrcamentocs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroOrcamentocs.designer.cs">
+      <DependentUpon>CadastroOrcamentocs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroUnidade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroUnidade.designer.cs">
+      <DependentUpon>CadastroUnidade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\CadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\CadastroUsuario.designer.cs">
+      <DependentUpon>CadastroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Desenvolvedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Desenvolvedores.designer.cs">
+      <DependentUpon>Desenvolvedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PesquiarOrcamentoContratado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PesquiarOrcamentoContratado.designer.cs">
+      <DependentUpon>PesquiarOrcamentoContratado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Fornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Fornecedor.designer.cs">
+      <DependentUpon>Fornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ListaContrato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ListaContrato.designer.cs">
+      <DependentUpon>ListaContrato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ListaInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ListaInsumos.designer.cs">
+      <DependentUpon>ListaInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ListaServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ListaServico.designer.cs">
+      <DependentUpon>ListaServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Pergunta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Pergunta.designer.cs">
+      <DependentUpon>Pergunta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PesquiarOrcamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PesquiarOrcamento.designer.cs">
+      <DependentUpon>PesquiarOrcamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PesquiarServico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PesquiarServico.designer.cs">
+      <DependentUpon>PesquiarServico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PesquisarBairro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PesquisarBairro.designer.cs">
+      <DependentUpon>PesquisarBairro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PesquisarEmpreteira.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PesquisarEmpreteira.designer.cs">
+      <DependentUpon>PesquisarEmpreteira.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PesquisarGrupo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PesquisarGrupo.designer.cs">
+      <DependentUpon>PesquisarGrupo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\PesquisarInsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\PesquisarInsumo.designer.cs">
+      <DependentUpon>PesquisarInsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\ContratoEmpreteiro1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContratoEmpreteiro.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\ContratoEmpreteiro11.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ContratoEmpreteiro1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\CrystalReport11.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\CurvaABCInsumo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CurvaABCInsumo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\Medicao.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Medicao.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\Medicao11.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Medicao1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\MedicaoQntValorEmBranco1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MedicaoQntValorEmBranco.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\MedicaoValorEmBranco1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MedicaoValorEmBranco.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\Orcamento1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Orcamento.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="GUI\CadastroAditivo.resx">
+      <DependentUpon>CadastroAditivo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroTabelaExterna.resx">
+      <DependentUpon>CadastroTabelaExterna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Contrato.resx">
+      <DependentUpon>Contrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\DotacaoOrcamentaria.resx">
+      <DependentUpon>DotacaoOrcamentaria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\EstornoOrcamentoContratado.resx">
+      <DependentUpon>EstornoOrcamentoContratado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ImporteEmpreteira.resx">
+      <DependentUpon>ImporteEmpreteira.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Relatorio.resx">
+      <DependentUpon>Relatorio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Relatorios.resx">
+      <DependentUpon>Relatorios.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Relatorios1.resx">
+      <DependentUpon>Relatorios1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RelatoriosServico.resx">
+      <DependentUpon>RelatoriosServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\RelatorioMedicao.resx">
+      <DependentUpon>RelatorioMedicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ImporteServico.resx">
+      <DependentUpon>ImporteServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ImporteInsumo.resx">
+      <DependentUpon>ImporteInsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroBairro.resx">
+      <DependentUpon>CadastroBairro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroComposicao.resx">
+      <DependentUpon>CadastroComposicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroEmpreteira.resx">
+      <DependentUpon>CadastroEmpreteira.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroFiscalizador.resx">
+      <DependentUpon>CadastroFiscalizador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroGrupoComposicao.resx">
+      <DependentUpon>CadastroGrupoComposicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroGrupoInsumos.resx">
+      <DependentUpon>CadastroGrupoInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroGrupoMedicao.resx">
+      <DependentUpon>CadastroGrupoMedicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroInsumos.resx">
+      <DependentUpon>CadastroInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroMedicacao.resx">
+      <DependentUpon>CadastroMedicacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroObraTipo.resx">
+      <DependentUpon>CadastroObraTipo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroOrcamentocontratado.resx">
+      <DependentUpon>CadastroOrcamentocontratado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroOrcamentocs.resx">
+      <DependentUpon>CadastroOrcamentocs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroUnidade.resx">
+      <DependentUpon>CadastroUnidade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\CadastroUsuario.resx">
+      <DependentUpon>CadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Desenvolvedores.resx">
+      <DependentUpon>Desenvolvedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PesquiarOrcamentoContratado.resx">
+      <DependentUpon>PesquiarOrcamentoContratado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Fornecedor.resx">
+      <DependentUpon>Fornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ListaContrato.resx">
+      <DependentUpon>ListaContrato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ListaInsumos.resx">
+      <DependentUpon>ListaInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ListaServico.resx">
+      <DependentUpon>ListaServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Pergunta.resx">
+      <DependentUpon>Pergunta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PesquiarOrcamento.resx">
+      <DependentUpon>PesquiarOrcamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PesquiarServico.resx">
+      <DependentUpon>PesquiarServico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PesquisarBairro.resx">
+      <DependentUpon>PesquisarBairro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PesquisarEmpreteira.resx">
+      <DependentUpon>PesquisarEmpreteira.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PesquisarGrupo.resx">
+      <DependentUpon>PesquisarGrupo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\PesquisarInsumo.resx">
+      <DependentUpon>PesquisarInsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\BoletimObras.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BoletimObras.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\BoletimObras_old.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BoletimObras_old.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\Composicao.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Composicao1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\ContratoEmpreteiro.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ContratoEmpreteiro1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\ContratoEmpreteiro1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ContratoEmpreteiro11.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\Medicao.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Medicao.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\ReciboEmpreteira.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReciboEmpreteira1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\SolicitacaoPagamento.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SolicitacaoPagamento1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\SolicitacaoPagamento1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SolicitacaoPagamento11.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\ReciboEmpreteira1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReciboEmpreteira11.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\Medicao1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Medicao11.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport11.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\CurvaABCInsumo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CurvaABCInsumo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\MedicaoQntValorEmBranco.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MedicaoQntValorEmBranco1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\MedicaoValorEmBranco.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MedicaoValorEmBranco1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\Orcamento.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Orcamento1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\OrdemServico.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>OrdemServico1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\RelatorioMedicao.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RelatorioMedicao1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\Servico.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Servico.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\ServicoMedicao.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ServicoMedicao1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorio\ServicoMedicaoTOP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ServicoMedicaoTOP1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="DAO\SCOOPDataSet.cs">
+      <DependentUpon>SCOOPDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAO\SCOOPDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SCOOPDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\SplashScreen.designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorio\OrdemServico1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrdemServico.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\ReciboEmpreteira1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReciboEmpreteira.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\ReciboEmpreteira11.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReciboEmpreteira1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\RelatorioMedicao1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RelatorioMedicao.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\Servico.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Servico.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\ServicoMedicao1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServicoMedicao.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\ServicoMedicaoTOP1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ServicoMedicaoTOP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\SolicitacaoPagamento1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SolicitacaoPagamento.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorio\SolicitacaoPagamento11.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SolicitacaoPagamento1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Util\ValidacoesLibrary.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AutoList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cópia de Icon_Lupa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copy1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empreiteiro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\errado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\estudante-de-engenharia-9f506.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FullScreenHH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gilmadson.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GraphHH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grupos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HomePageHH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icon_Lupa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logomarca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logomarca1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Move.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Move1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewClassModuleHH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewDocumentHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Operadores2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\paste.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PasteHH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PieChart3DHH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PropertiesHH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recursoshumanos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\recursoshumanos1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SaveFormDesignHH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Stuffed_Folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TaskHH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Users.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="SCOOPClassDiagram.cd" />
+    <None Include="Resources\usuario.jpg" />
+    <None Include="DAO\SCOOPDataSet.xsc">
+      <DependentUpon>SCOOPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DAO\SCOOPDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>SCOOPDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DAO\SCOOPDataSet.xss">
+      <DependentUpon>SCOOPDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="SCOOP_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="BusinessObjects.CrystalReports.10.5">
+      <Visible>False</Visible>
+      <ProductName>Crystal Reports Basic for Visual Studio 2008 %28x86, x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework Client Profile</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Office.PIARedist.2007">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Office 2007 Primary Interop Assemblies</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.ReportViewer.8.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Studio 2008 Report Viewer</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Visual.C++.9.0.x86">
+      <Visible>False</Visible>
+      <ProductName>Visual C++ Runtime Libraries %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.1.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft Visual Basic PowerPacks 1.2</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.VSTORuntime.3.0">
+      <Visible>False</Visible>
+      <ProductName>Visual Studio Tools for the Office system 3.0 Runtime Service Pack 1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup.png" />
+    <Content Include="ico268.ico" />
+    <Content Include="icon.ico" />
+    <Content Include="Resources\cargo1.png" />
+    <None Include="Resources\Obras.jpg" />
+    <Content Include="Resources\Underconstruction.png" />
+    <None Include="Resources\edit11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Orca08\Orca08.csproj">
+      <Project>{E92FB587-5421-4EF0-8B5B-A0DC37BC7345}</Project>
+      <Name>Orca08</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <FileAssociation Include=".1">
+      <Visible>False</Visible>
+      <Description>SCOOP</Description>
+      <Progid>1</Progid>
+      <DefaultIcon>ico268.ico</DefaultIcon>
+    </FileAssociation>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Enterprise.Framework">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Enterprise.InfoStore">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

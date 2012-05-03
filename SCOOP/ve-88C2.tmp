@@ -1,0 +1,140 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace SCOOP
+{
+    public partial class CadastroComposicao : Form
+    {
+        public CadastroComposicao(string valor)
+        {
+            InitializeComponent();
+        }
+
+        private void servicoBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.Validate();
+            this.servicoBindingSource.EndEdit();
+            this.tableAdapterManager.UpdateAll(this.sCOOPDataSet);
+
+        }
+
+        private void CadastroComposicao_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'sCOOPDataSet.Composicao' table. You can move, or remove it, as needed.
+            this.composicaoTableAdapter.FillBy(this.sCOOPDataSet.Composicao, CodigomaskedTextBox.Text.Replace(",", "."));
+            // TODO: This line of code loads data into the 'sCOOPDataSet.Atividade' table. You can move, or remove it, as needed.
+            this.atividadeTableAdapter.Fill(this.sCOOPDataSet.Atividade);
+            // TODO: This line of code loads data into the 'sCOOPDataSet.Etapa' table. You can move, or remove it, as needed.
+            this.etapaTableAdapter.Fill(this.sCOOPDataSet.Etapa);
+            // TODO: This line of code loads data into the 'sCOOPDataSet.Grupo' table. You can move, or remove it, as needed.
+            this.grupoTableAdapter.Fill(this.sCOOPDataSet.Grupo);
+            // TODO: This line of code loads data into the 'sCOOPDataSet.Servico' table. You can move, or remove it, as needed.
+            this.servicoTableAdapter.Fill(this.sCOOPDataSet.Servico);
+
+        }
+
+        private void CadastrarServicoButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                new SCOOPDataSetTableAdapters.ServicoTableAdapter().Insert(CodigomaskedTextBox.Text.Replace(",", "."), descricaoServicoTextBox.Text, unidadeComboBox.Text, (int)GrupoComboBox.SelectedValue, (int)EtapaComboBox.SelectedValue, (int)AtividadeComboBox.SelectedValue, Convert.ToDecimal(leiSocialTextBox.Text), Convert.ToDecimal(encargoTextBox.Text));
+                //GrupoBoxComponentes.Enabled = true;
+                CadastrarServicoButton.Enabled = false;
+                groupBox1.Enabled = false;
+                //mskTxtBoxCodInsumo.Focus();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro a gravar Serviço! " + ex.Message);
+                //GrupoBoxComponentes.Enabled = false;
+                groupBox1.Enabled = true;
+
+            }
+        }
+        private void dataGridView1_RowsAdded(object sender, DataGridViewRowsAddedEventArgs e)
+        {
+            
+                SCOOPDataSet.InsumoDataTable Dt = new SCOOPDataSetTableAdapters.InsumoTableAdapter().GetDataBy(dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString());
+                foreach (SCOOPDataSet.InsumoRow linha in Dt)
+                {
+                    dataGridView1.Rows[e.RowIndex].Cells[3].Value = linha.Descricao;
+                    dataGridView1.Rows[e.RowIndex].Cells[4].Value = linha.Unidade;
+                    dataGridView1.Rows[e.RowIndex].Cells[6].Value = linha.Preco.ToString();
+                    dataGridView1.Rows[e.RowIndex].Cells[7].Value = Convert.ToString(Convert.ToDecimal(dataGridView1.Rows[e.RowIndex].Cells[5].Value) * linha.Preco);
+                }
+            
+        }
+
+        private void maskedTextBox1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if ((e.KeyChar < '0' || e.KeyChar > '9') && (e.KeyChar != ',' && e.KeyChar != '.' && e.KeyChar != (Char)13 && e.KeyChar != (Char)8)) { e.KeyChar = (Char)0; } else { if (e.KeyChar == '.' || e.KeyChar == ',') { if (!CodigomaskedTextBox.Text.Contains(",")) { e.KeyChar = ','; } else { e.KeyChar = (Char)0; } } }
+        }
+
+        private void CodigoInsumomaskedTextBox_TextChanged(object sender, EventArgs e)
+        {
+            if (CodigoInsumomaskedTextBox.Text.Length == 12)
+            {
+                SCOOPDataSet.InsumoDataTable Dt = new SCOOPDataSetTableAdapters.InsumoTableAdapter().GetDataBy(CodigoInsumomaskedTextBox.Text.Replace(",", "."));
+
+                foreach (SCOOPDataSet.InsumoRow linha in Dt)
+                {
+                    descricaoInsumotextBox.Text = linha.Descricao;
+                    UnidadetextBox.Text = linha.Unidade;
+                    ValortextBox.Text = linha.Preco.ToString();
+                }
+                QuantidadetextBox.Focus();
+            }
+        }
+
+        private void bindingNavigatorAddNewItem_Click(object sender, EventArgs e)
+        {
+            if (QuantidadetextBox.Text != "")
+                try
+                {
+                    new SCOOPDataSetTableAdapters.ComposicaoTableAdapter().Insert(CodigomaskedTextBox.Text.Replace(",", "."), CodigoInsumomaskedTextBox.Text.Replace(",", "."), Convert.ToDecimal(QuantidadetextBox.Text), Convert.ToInt32(new SCOOPDataSetTableAdapters.ServicoTableAdapter().ObterSequencialServico(CodigomaskedTextBox.Text.Replace(",", ".")).Value), Convert.ToInt32(new SCOOPDataSetTableAdapters.InsumoTableAdapter().ObterSequencialInsumo(CodigoInsumomaskedTextBox.Text.Replace(",", ".")).Value));
+                    this.composicaoTableAdapter.FillBy(this.sCOOPDataSet.Composicao, CodigomaskedTextBox.Text.Replace(",", "."));
+                    Preencher_dataGridView();
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Erro ao inserir Composição\n" + ex.Message);
+                }
+        }
+
+        private void dataGridView1_RowValidated(object sender, DataGridViewCellEventArgs e)
+        {
+            SCOOPDataSet.InsumoDataTable Dt = new SCOOPDataSetTableAdapters.InsumoTableAdapter().GetDataBy(dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString());
+            foreach (SCOOPDataSet.InsumoRow linha in Dt)
+            {
+                dataGridView1.Rows[e.RowIndex].Cells[3].Value = linha.Descricao;
+                dataGridView1.Rows[e.RowIndex].Cells[4].Value = linha.Unidade;
+                dataGridView1.Rows[e.RowIndex].Cells[6].Value = linha.Preco.ToString();
+                dataGridView1.Rows[e.RowIndex].Cells[7].Value = Convert.ToString(Convert.ToDecimal(dataGridView1.Rows[e.RowIndex].Cells[5].Value) * linha.Preco);
+            }
+        }
+
+        private void Preencher_dataGridView()
+        {
+            
+            for (int i = 0; i <= dataGridView1.RowCount; i++)
+            {
+                SCOOPDataSet.InsumoDataTable Dt = new SCOOPDataSetTableAdapters.InsumoTableAdapter().GetDataBy(dataGridView1.Rows[i].Cells[2].Value.ToString());
+            
+                foreach (SCOOPDataSet.InsumoRow linha in Dt)
+                {
+                    dataGridView1.Rows[i].Cells[3].Value = linha.Descricao;
+                    dataGridView1.Rows[i].Cells[4].Value = linha.Unidade;
+                    dataGridView1.Rows[i].Cells[6].Value = linha.Preco.ToString();
+                    dataGridView1.Rows[i].Cells[7].Value = Convert.ToString(Convert.ToDecimal(dataGridView1.Rows[i].Cells[5].Value) * linha.Preco);
+                }
+            }
+        }
+
+    }
+}
