@@ -1,0 +1,256 @@
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.Properties.Resources.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.csproj.GenerateResource.Cache
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.Form1.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\bin\Debug\SCOOP.exe
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\bin\Debug\SCOOP.pdb
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.exe
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.pdb
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\bin\Debug\SCOOP.exe.config
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroComposicao.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroBairro.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroEmpreteira.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroFiscal.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoComposicao.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoInsumos.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoMedicao.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroInsumos.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroObraTipo.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroOrcamentocs.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroUnidade.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroUsuario.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.Contrato.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.Fornecedor.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.ListaContrato.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.ListaInsumos.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.ListaServico.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.Pergunta.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroOrcamentocontratado.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.PesquiarOrcamento.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroMedicao.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.PesquiarServico.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.PesquisarBairro.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.PesquisarEmpreteira.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.PesquisarGrupo.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.PesquisarInsumo.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.SplashScreen.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.Relatorios.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.PesquiarOrcamentoContratado.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.Desenvolvedores.resources
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\bin\Debug\SCOOP.exe.manifest
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\bin\Debug\SCOOP.application
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.exe.manifest
+C:\Users\Gilmadson\Documents\Visual Studio 2008\Projects\Project1\SCOOP\SCOOP\obj\Debug\SCOOP.application
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\SCOOP.exe.config
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\SCOOP.exe.manifest
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\SCOOP.application
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\SCOOP.exe
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\SCOOP.pdb
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\Ascend.dll
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\Ascend.Resources.dll
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\Ascend.Windows.Forms.dll
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\Jacksonsoft.CustomTabControl.dll
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\Orca08.dll
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Calendar.dll
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Ribbon.dll
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\TaskPaneControl.dll
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\XPExplorerBar.dll
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\Orca08.pdb
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Ribbon.pdb
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\TaskPaneControl.pdb
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\TaskPaneControl.xml
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Calendar.pdb
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\XPExplorerBar.pdb
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\XPExplorerBar.xml
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\Jacksonsoft.CustomTabControl.pdb
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\bin\Debug\Jacksonsoft.CustomTabControl.xml
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.CadastroAditivo.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.ImporteEmpreteira.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.Relatorios.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.RelatoriosServico.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.RelatoriosMedicao.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.ImporteServico.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.ImporteInsumo.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroBairro.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroComposicao.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroEmpreteira.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroFiscalizador.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoComposicao.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoInsumos.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoMedicao.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroInsumos.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.CadastroMedicao.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroObraTipo.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroOrcamentocontratado.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroOrcamentocs.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroUnidade.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroUsuario.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.Contrato.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.Desenvolvedores.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquiarOrcamentoContratado.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.Form1.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.Fornecedor.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.ListaContrato.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.ListaInsumos.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.ListaServico.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.Pergunta.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquiarOrcamento.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquiarServico.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.PesquisarBairro.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquisarEmpreteira.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquisarGrupo.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.PesquisarInsumo.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.Principal.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.Properties.Resources.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.SplashScreen.resources
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.csproj.GenerateResource.Cache
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.exe.manifest
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.application
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.exe
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.pdb
+C:\Users\Gilmadson\Desktop\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.EstornoOrcamentoContratado.resources
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\SCOOP.exe.config
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.exe
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.pdb
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\ResolveAssemblyReference.cache
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.CadastroAditivo.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.CadastroTabelaExterna.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.Contrato.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.EstornoOrcamentoContratado.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.ImporteEmpreteira.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.Relatorio.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.RelatoriosServico.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.RelatoriosMedicao.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.ImporteServico.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.ImporteInsumo.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroBairro.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroComposicao.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroEmpreteira.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroFiscalizador.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoComposicao.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoInsumos.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoMedicao.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroInsumos.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.CadastroMedicao.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroObraTipo.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroOrcamentocontratado.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroOrcamentocs.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroUnidade.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroUsuario.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.Desenvolvedores.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquiarOrcamentoContratado.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.Form1.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.Fornecedor.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.ListaContrato.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.ListaInsumos.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.ListaServico.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.Pergunta.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquiarOrcamento.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquiarServico.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.PesquisarBairro.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquisarEmpreteira.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquisarGrupo.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.PesquisarInsumo.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.Principal.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.Properties.Resources.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.SplashScreen.resources
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.csproj.GenerateResource.Cache
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\SCOOP.exe.manifest
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\SCOOP.application
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\SCOOP.exe
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\SCOOP.pdb
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\Ascend.dll
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\Ascend.Resources.dll
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\Ascend.Windows.Forms.dll
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\Jacksonsoft.CustomTabControl.dll
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\Orca08.dll
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Calendar.dll
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Ribbon.dll
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\TaskPaneControl.dll
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\XPExplorerBar.dll
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\Orca08.pdb
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Ribbon.pdb
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\TaskPaneControl.pdb
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\TaskPaneControl.xml
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Calendar.pdb
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\XPExplorerBar.pdb
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\XPExplorerBar.xml
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\Jacksonsoft.CustomTabControl.pdb
+C:\SCOOP\SCOOP\SCOOP\bin\Debug\Jacksonsoft.CustomTabControl.xml
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.exe.manifest
+C:\SCOOP\SCOOP\SCOOP\obj\Debug\SCOOP.application
+C:\SCOOP\SCOOP\obj\Debug\ResolveAssemblyReference.cache
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.CadastroAditivo.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.CadastroTabelaExterna.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.Contrato.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.DotacaoOrcamentaria.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.EstornoOrcamentoContratado.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.ImporteEmpreteira.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.Login.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.Relatorio.resources
+C:\SCOOP\SCOOP\obj\Debug\Orca08.GUI.Relatorios1.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.RelatoriosServico.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.RelatoriosMedicao.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.ImporteServico.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.ImporteInsumo.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroBairro.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroComposicao.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroEmpreteira.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroFiscalizador.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoComposicao.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoInsumos.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroGrupoMedicao.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroInsumos.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.CadastroMedicao.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroObraTipo.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroOrcamentocontratado.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroOrcamentocs.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroUnidade.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.CadastroUsuario.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.Desenvolvedores.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquiarOrcamentoContratado.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.Form1.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.Fornecedor.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.ListaContrato.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.ListaInsumos.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.ListaServico.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.Pergunta.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquiarOrcamento.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquiarServico.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.PesquisarBairro.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquisarEmpreteira.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.PesquisarGrupo.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.PesquisarInsumo.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.Principal.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.Properties.Resources.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.SplashScreen.resources
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.csproj.GenerateResource.Cache
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.GUI.Relatorios1.resources
+C:\SCOOP\SCOOP\bin\Debug\SCOOP.exe.config
+C:\SCOOP\SCOOP\bin\Debug\SCOOP.exe.manifest
+C:\SCOOP\SCOOP\bin\Debug\SCOOP.application
+C:\SCOOP\SCOOP\bin\Debug\SCOOP.exe
+C:\SCOOP\SCOOP\bin\Debug\SCOOP.pdb
+C:\SCOOP\SCOOP\bin\Debug\Ascend.dll
+C:\SCOOP\SCOOP\bin\Debug\Ascend.Resources.dll
+C:\SCOOP\SCOOP\bin\Debug\Ascend.Windows.Forms.dll
+C:\SCOOP\SCOOP\bin\Debug\Jacksonsoft.CustomTabControl.dll
+C:\SCOOP\SCOOP\bin\Debug\Orca08.dll
+C:\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Calendar.dll
+C:\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Ribbon.dll
+C:\SCOOP\SCOOP\bin\Debug\TaskPaneControl.dll
+C:\SCOOP\SCOOP\bin\Debug\XPExplorerBar.dll
+C:\SCOOP\SCOOP\bin\Debug\Orca08.pdb
+C:\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Ribbon.pdb
+C:\SCOOP\SCOOP\bin\Debug\TaskPaneControl.pdb
+C:\SCOOP\SCOOP\bin\Debug\TaskPaneControl.xml
+C:\SCOOP\SCOOP\bin\Debug\System.Windows.Forms.Calendar.pdb
+C:\SCOOP\SCOOP\bin\Debug\XPExplorerBar.pdb
+C:\SCOOP\SCOOP\bin\Debug\XPExplorerBar.xml
+C:\SCOOP\SCOOP\bin\Debug\Jacksonsoft.CustomTabControl.pdb
+C:\SCOOP\SCOOP\bin\Debug\Jacksonsoft.CustomTabControl.xml
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.exe.manifest
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.application
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.exe
+C:\SCOOP\SCOOP\obj\Debug\SCOOP.pdb

@@ -1,0 +1,126 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TaskPaneControl
+</name>
+</assembly>
+<members>
+<member name="M:TaskPaneControl.TaskPaneActionList.#ctor(TaskPaneControl.TaskPane)">
+	<summary>
+ Initializes a new instance of the TaskPaneActionList class.
+ </summary>
+	<param name="argPane">A TaskPane control.</param>
+</member><member name="M:TaskPaneControl.TaskPaneActionList.GetSortedActionItems">
+	<summary>
+ Returns the collection of DesignerActionItem objects contained in the list. 
+ </summary>
+	<returns>A DesignerActionItem array that contains the items in this list.</returns>
+</member><member name="P:TaskPaneControl.TaskPaneDesigner.ActionLists">
+	<summary>
+ Gets the design-time action lists supported by the component associated with the designer.
+ </summary>
+	<value>
+ The design-time action lists supported by the component associated with the designer. 
+ </value>
+</member><member name="P:TaskPaneControl.TaskPanePageDesigner.ActionLists">
+	<summary>
+ Gets the design-time action lists supported by the component associated with the designer.
+ </summary>
+	<value>
+ The design-time action lists supported by the component associated with the designer. 
+ </value>
+</member><member name="P:TaskPaneControl.TaskPane.BorderStyle">
+	<summary>
+ Indicates whether the panel should have a border
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:TaskPaneControl.My.Resources.Resources.ResourceManager">
+	<summary>
+  Retorna a instância de ResourceManager armazenada em cache usada por essa classe.
+</summary>
+</member><member name="P:TaskPaneControl.My.Resources.Resources.Culture">
+	<summary>
+  Substitui a propriedade CurrentUICulture do thread atual para todas as
+  pesquisas de recursos que usam essa classe de recurso de tipo de alta segurança.
+</summary>
+</member><member name="T:TaskPaneControl.My.Resources.Resources">
+	<summary>
+  Uma classe de recurso de tipo de alta segurança, para pesquisar seqüências de caracteres localizadas etc.
+</summary>
+</member><member name="M:TaskPaneControl.TaskPanePageActionList.#ctor(TaskPaneControl.TaskPanePage)">
+	<summary>
+ Initializes a new instance of the TaskPanePageActionList class.
+ </summary>
+	<param name="argPage">A TaskPanePage component.</param>
+</member><member name="P:TaskPaneControl.TaskPanePageActionList.Caption">
+	<summary>
+ Gets or sets the Caption to be used for this TaskPanePage
+ </summary>
+	<value>
+		<para>System.String.  The text that appears on the TaskPane dropdown menu.</para>
+		<para>This property is read/write</para>
+	</value>
+</member><member name="P:TaskPaneControl.TaskPanePageActionList.CaptionImage">
+	<summary>
+ Gets or sets the Caption Image to be used for this TaskPanePage
+ </summary>
+	<value>
+		<para>System.Drawing.Image.  The image that appears on the TaskPane dropdown menu.</para>
+		<para>This property is read/write</para>
+	</value>
+</member><member name="P:TaskPaneControl.TaskPanePageActionList.GradientHighColor">
+	<summary>
+ Gets or sets the gradient high (lighter) color for the control.
+ </summary>
+	<value>
+		<para>
+ System.Drawing.Color . A Color that represents the gradient high color of the control.
+ </para>
+		<para>
+ This property is read/write. 
+ </para>
+	</value>
+</member><member name="P:TaskPaneControl.TaskPanePageActionList.GradientLowColor">
+	<summary>
+ Gets or sets the gradient low (darker) color for the control.
+ </summary>
+	<value>
+		<para>
+ System.Drawing.Color . A Color that represents the gradient low color of the control.
+ </para>
+		<para>
+ This property is read/write. 
+ </para>
+	</value>
+</member><member name="P:TaskPaneControl.TaskPanePageActionList.GradientMode">
+	<summary>
+ Specifies the direction of a linear gradient.
+ </summary>
+	<value>
+		<para>
+ System.Drawing.Drawing2D.LinearGradientMode . Specifies the direction of a linear gradient.
+ </para>
+		<para>
+ This property is read/write. 
+ </para>
+	</value>
+</member><member name="P:TaskPaneControl.TaskPanePageActionList.RenderMode">
+	<summary>
+ Gets or sets the painting style applied to the background in a control.
+ </summary>
+	<value>
+		<para>
+ This property is read/write. 
+ </para>
+	</value>
+</member><member name="M:TaskPaneControl.TaskPanePageActionList.GetSortedActionItems">
+	<summary>
+ Returns the collection of DesignerActionItem objects contained in the list. 
+ </summary>
+	<returns>A DesignerActionItem array that contains the items in this list.</returns>
+</member>
+</members>
+</doc>

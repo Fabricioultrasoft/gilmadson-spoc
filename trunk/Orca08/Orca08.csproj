@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E92FB587-5421-4EF0-8B5B-A0DC37BC7345}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Orca08</RootNamespace>
+    <AssemblyName>Orca08</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DAL\OrcaDataSet.xsc">
+      <DependentUpon>OrcaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="DAL\OrcaDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OrcaDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DAL\OrcaDataSet.xss">
+      <DependentUpon>OrcaDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Data.AdoDotNetInterop, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.VSDesigner, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Web, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DAL\OrcaDataSet.cs">
+      <DependentUpon>OrcaDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GUI\EditMedicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\EditMedicao.Designer.cs">
+      <DependentUpon>EditMedicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\InserirServicoMedicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\InserirServicoMedicao.Designer.cs">
+      <DependentUpon>InserirServicoMedicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ListaMedicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ListaMedicao.Designer.cs">
+      <DependentUpon>ListaMedicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAL\OrcaDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OrcaDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Parametros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Parametros.Designer.cs">
+      <DependentUpon>Parametros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\Relatorios1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Relatorios1.Designer.cs">
+      <DependentUpon>Relatorios1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GUI\ServicoMedicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\ServicoMedicao.Designer.cs">
+      <DependentUpon>ServicoMedicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Relatorios\ContratoEmpreteiro1.cs">
+      <DependentUpon>ContratoEmpreteiro1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Relatorios\Medicao1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Medicao1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Relatorios\ReciboEmpreteira1.cs">
+      <DependentUpon>ReciboEmpreteira1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Relatorios\SolicitacaoPagamento1.cs">
+      <DependentUpon>SolicitacaoPagamento1.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="GUI\EditMedicao.resx">
+      <DependentUpon>EditMedicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\InserirServicoMedicao.resx">
+      <DependentUpon>InserirServicoMedicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ListaMedicao.resx">
+      <DependentUpon>ListaMedicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Parametros.resx">
+      <DependentUpon>Parametros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Relatorios1.resx">
+      <DependentUpon>Relatorios1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\ServicoMedicao.resx">
+      <DependentUpon>ServicoMedicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\ContratoEmpreteiro1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ContratoEmpreteiro1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\Medicao1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>Medicao1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\ReciboEmpreteira1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReciboEmpreteira1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Relatorios\SolicitacaoPagamento1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SolicitacaoPagamento1.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AutoList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\cargo1.png" />
+    <None Include="Resources\usuario.jpg" />
+    <None Include="Resources\Users.png" />
+    <None Include="Resources\Untitled-1.png" />
+    <None Include="Resources\TaskHH.png" />
+    <None Include="Resources\Stuffed_Folder.png" />
+    <None Include="Resources\search.png" />
+    <None Include="Resources\SaveFormDesignHH.png" />
+    <None Include="Resources\rh.jpg" />
+    <None Include="Resources\recursoshumanos1.jpg" />
+    <None Include="Resources\recursoshumanos.jpg" />
+    <None Include="Resources\PropertiesHH.png" />
+    <None Include="Resources\Printer.png" />
+    <None Include="Resources\PieChart3DHH.png" />
+    <None Include="Resources\PasteHH.png" />
+    <None Include="Resources\paste.png" />
+    <None Include="Resources\Operadores2.bmp" />
+    <None Include="Resources\ok.jpg" />
+    <None Include="Resources\novo.png" />
+    <None Include="Resources\NewDocumentHS.png" />
+    <None Include="Resources\NewClassModuleHH.png" />
+    <None Include="Resources\Move1.png" />
+    <None Include="Resources\Move.png" />
+    <None Include="Resources\logomarca1.jpg" />
+    <None Include="Resources\logomarca.jpg" />
+    <None Include="Resources\Icon_Lupa.gif" />
+    <None Include="Resources\HomePageHH.png" />
+    <None Include="Resources\grupos.png" />
+    <None Include="Resources\GraphHH.png" />
+    <None Include="Resources\gilmadson.jpg" />
+    <None Include="Resources\FullScreenHH.png" />
+    <None Include="Resources\estudante-de-engenharia-9f506.jpg" />
+    <None Include="Resources\errado.jpg" />
+    <None Include="Resources\empreiteiro.png" />
+    <None Include="Resources\edit11.jpg" />
+    <None Include="Resources\edit1.jpg" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\copy1.png" />
+    <None Include="Resources\copy.png" />
+    <None Include="Resources\Cópia de Icon_Lupa.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BLL\" />
+  </ItemGroup>
+</Project>
